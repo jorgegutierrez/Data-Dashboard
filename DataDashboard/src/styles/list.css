@@ -1,0 +1,64 @@
+/* src/styles/List.css */
+
+.List {
+  margin: 20px 20px; /* Espaciado */
+  width: 100%; /* Ancho del componente */
+}
+
+.filters {
+  display: flex; /* Establecer como flexbox */
+  justify-content: first baseline; /* Justificar el contenido */
+}
+
+.label {
+  margin-right: 10px; /* Espaciado derecho */
+  display: flex;
+  justify-content: center;
+}
+
+.dateFilter,
+.phaseFilter {
+  margin-right: 20px; /* Espaciado derecho */
+}
+
+.table {
+  border-collapse: collapse; /* Colapsar los bordes de la tabla */
+  width: 100%; /* Ancho de la tabla */
+}
+
+.table th,
+.table td {
+  border: 1px solid #dddddd; /* Borde de las celdas */
+  padding: 8px; /* Espaciado interno */
+  text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.table th {
+  background-color: #f2f2f2; /* Color de fondo del encabezado */
+}
+
+.btn {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cursor de puntero */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
+
+input[type="text"] {
+  width: 200px; /* Ancho del campo de texto */
+  padding: 8px; /* Espaciado interno */
+  border-radius: 4px; /* Borde redondeado */
+  border: 1px solid #ccc; /* Borde del campo de texto */
+}
+
+input[type="range"] {
+  width: 200px; /* Ancho del rango */
+  padding: 8px; /* Espaciado interno */
+  border-radius: 4px; /* Borde redondeado */
+  border: 1px solid #ccc; /* Borde del rango */
+}

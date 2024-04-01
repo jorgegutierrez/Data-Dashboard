@@ -1,0 +1,21 @@
+/* src/App.css */
+
+body {
+    font-family: Arial, sans-serif; /* Fuente del cuerpo de la página */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  }
+  
+  .App {
+    display: flex; /* Establece el contenedor principal como flexbox */
+    height: 100vh; /* Altura del contenedor principal */
+  }
+  
+  .App-sidebar {
+    width: 250px; /* Ancho de la barra lateral */
+    background-color: #f2f2f2; /* Color de fondo de la barra lateral */
+    padding: 20px; /* Espaciado interno de la barra lateral */
+  }
+  
+  /* Puedes agregar más estilos según sea necesario */
+  

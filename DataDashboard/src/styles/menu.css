@@ -1,0 +1,45 @@
+.Menu {
+    width: 200px; /* Ancho del menú */
+    background-color: #f2f2f2; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Establecer como flexbox */
+    flex-direction: column; /* Dirección de la distribución */
+    align-items: center; /* Centrar horizontalmente los elementos */
+}
+
+.Menu ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+}
+
+.Menu-item {
+    margin-bottom: 10px; /* Espaciado inferior entre elementos del menú */
+}
+
+.menu-link {
+    text-decoration: none; /* Sin decoración de texto */
+    color: #333333; /* Color del texto */
+    display: flex; /* Establecer como flexbox */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.menu-link:hover {
+    color: #007bff; /* Color del texto al pasar el ratón */
+}
+
+.menu-div {
+    margin-left: 10px; /* Espacio a la izquierda del texto */
+    display: flex; /* Establecer como flexbox */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.menu-div img {
+    width: 50px; /* Ajusta el ancho según sea necesario */
+    height: 50px; /* Ajusta la altura según sea necesario */
+}
+
+.menu-div h3 {
+    margin-top: 30px; /* Espacio entre el ícono y el texto */
+    margin-left: 10px;
+    text-align: center; /* Centrar el texto horizontalmente */
+}

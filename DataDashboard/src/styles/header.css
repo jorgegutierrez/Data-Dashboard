@@ -1,0 +1,15 @@
+/* src/styles/Header.css */
+
+.Header {
+    background-color: #ffffff; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .Header-title {
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #333333; /* Color del texto */
+    margin-left: 10px; /* Espacio a la izquierda del título */
+  }
+  
