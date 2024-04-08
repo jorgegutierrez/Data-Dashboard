@@ -1,0 +1,62 @@
+/* Chart.css */
+.Chart-container {
+  display: block;
+  flex-direction: row;
+}
+.Chart {
+    margin: 20px 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: fit-content;
+    height: fit-content
+  }
+  
+  .Chart h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos específicos para ChartA */
+  .ChartA {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* Estilos específicos para ChartB */
+  .ChartB {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* Estilos para los textos de las leyendas en los gráficos */
+  .recharts-legend {
+    font-size: 14px;
+  }
+  
+  /* Estilos para los ejes */
+  .recharts-axis {
+    font-size: 12px;
+  }
+  
+  /* Estilos para las etiquetas de los ejes */
+  .recharts-cartesian-axis-tick-value {
+    font-size: 12px;
+  }
+  
+  /* Estilos para los tooltip */
+  .recharts-tooltip {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

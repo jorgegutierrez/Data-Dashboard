@@ -2,8 +2,9 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Menu from './components/Menu';
-import Dashboard from './pages/Dashboard'
-
+import Dashboard from './pages/Dashboard';
+import {ChartA} from './components/Charts'; // Importa el componente ChartA
+import {ChartB} from './components/Charts'; // Importa el componente ChartB
 
 const App = () => {
 
@@ -46,8 +47,18 @@ const App = () => {
 
       <Dashboard data={data}/>
       
+      {/* Renderiza ChartA y ChartB dentro del Dashboard */}
+      <div className="Charts-container">
+        <div className="Chart">
+          <ChartA data={data} /> {/* Renderiza el ChartA */}
+        </div>
+        
+        <div className="Chart">
+          <ChartB data={data} /> {/* Renderiza el ChartB */}
+        </div>
+      </div>
     </div>
-
+      
   );
 }
 
